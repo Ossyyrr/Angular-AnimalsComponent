@@ -11,9 +11,9 @@ import { apiAnimalsResponse  } from '../../api/animals.api';
 export class AnimalsComponent implements OnInit {
   public apiAnimalsResponse: Ianimals[];
   constructor() {
-    this.apiAnimalsResponse = apiAnimalsResponse;
-}
+  }
   ngOnInit() {
+    this.apiAnimalsResponse = apiAnimalsResponse;
   }
 
 }
